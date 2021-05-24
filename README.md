@@ -1,5 +1,20 @@
 # fetchrewards-textsimilarity
 
+
+#Steps to run the project from Docker Hub
+1) Install Docker on your machine
+2) Run the command following command to pull the image and automated build from Docker hub
+   > docker run index.docker.io/dharmang007/fetchrewards-textsimilarity:lastest
+3) Go to http://172.17.0.2:5000/ 
+4) Copy-paste the sample texts. Make sure you remove the extra white-space after copying the text. This will change the value of similarity.
+
+#Steps to run the project from GitHub
+1) Clone this repo.
+2) Install the docker on your machine
+3) Run command:
+   > docker build --tag fetchrewards .
+   > docker run fetchrewards
+
 #Sample Text Result 
 
 Sample 1
@@ -27,9 +42,3 @@ Cosine Similarity Between:
 2) Sample 1 and Sample 3 : 0.184891731 (Less Similarity)
    ![](Sample1_3.png)
 
-Steps to run the project
-1) Install Docker on your machine
-2) Run the command following command to pull the image and automated build from Docker hub
-   > docker run index.docker.io/dharmang007/fetchrewards-textsimilarity:lastest
-3) Go to http://172.17.0.2:5000/ 
-4) Copy-paste the sample texts. Make sure you remove the extra white-space after copying the text. This will change the value of similarity.
