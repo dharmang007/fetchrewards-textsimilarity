@@ -27,4 +27,4 @@ def getSimilarity():
     
     return render_template('index.html',score=cosine_doc1_doc2, text1 = doc1, text2=doc2)
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
