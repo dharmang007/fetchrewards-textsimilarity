@@ -22,8 +22,8 @@ whether or not you knew about the offer. We just think it is easier that way.
 
 # Results
 Cosine Similarity Between:
-Sample 1 and Sample 2 : 0.73589231 (Higher Similarity)
-Sample 1 and Sample 3 : 0.184891731 (Less Similarity)
+1) Sample 1 and Sample 2 : 0.73589231 (Higher Similarity)
+3) Sample 1 and Sample 3 : 0.184891731 (Less Similarity)
 
 
 Steps to run the project
