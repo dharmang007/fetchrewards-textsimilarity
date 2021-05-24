@@ -144,9 +144,12 @@ class TextSimilarityEngine:
             return 0
         return cosine if cosine <= 1 else 1
 
-"""
-DEBUGGING CODE
 
+
+#doc1 = """Sample Text 1"""
+#doc2 = """Sample Text 2"""
+#DEBUGGING CODE
+"""
 docs = [doc1,doc2]
 textSimilarityObj = TextSimilarityEngine(docs)
 textSimilarityObj.generateDocumentTermFrequencies()
@@ -156,5 +159,4 @@ doc1_tfidf = list(textSimilarityObj._tfidf[0].values())
 doc2_tfidf = list(textSimilarityObj._tfidf[1].values())
 cosine_doc1_doc2 = TextSimilarityEngine.getSimilarity(doc1_tfidf,doc2_tfidf)
 print(cosine_doc1_doc2)
-
 """
